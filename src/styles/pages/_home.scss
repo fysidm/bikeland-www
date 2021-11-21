@@ -1,0 +1,17 @@
+.home-container {
+  position: relative;
+
+  .leaflet-container {
+    width: 100%;
+    height: calc(100vh - 76px);
+  }
+
+  .bikes-container,
+  .bike-routes-container,
+  .scenic-spots-container {
+    position: absolute;
+    top: 10px;
+    // Same as leaflet
+    z-index: 1000;
+  }
+}
