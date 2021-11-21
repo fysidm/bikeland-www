@@ -1,13 +1,11 @@
 import { Outlet } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 
-const HomePage = (props) => {
+const HomePage = () => {
   const username = process.env.REACT_APP_MAPBOX_USERNAME;
   const styleId = process.env.REACT_APP_MAPBOX_STYLEID;
   const accessToken = process.env.REACT_APP_MAPBOX_ACCESSTOKEN;
   const position = [25.047675, 121.517055];
-
-  console.log(props);
 
   return (
     <div className="home-container">
