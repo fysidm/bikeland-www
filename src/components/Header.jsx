@@ -10,7 +10,9 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <header className="header-container">
-      <img alt="bike-land-logo" src="logo.png" />
+      <div className="logo-container" onClick={() => navigate('/')}>
+        <img alt="bike-land-logo" src="logo.png" />
+      </div>
       <div className="btn-container">
         <div className="btn" onClick={() => navigate('/')}>
           <FontAwesomeIcon icon={faBicycle} fixedWidth />
