@@ -1,5 +1,5 @@
 const ScenicSpotsPage = () => {
-  return <div>ScenicSpotsPage</div>;
+  return <div className="scenic-spots-container">ScenicSpotsPage</div>;
 };
 
 export default ScenicSpotsPage;

@@ -1,5 +1,5 @@
 const BikeRoutesPage = () => {
-  return <div>BikeRoutesPage</div>;
+  return <div className="bike-routes-container">BikeRoutesPage</div>;
 };
 
 export default BikeRoutesPage;
