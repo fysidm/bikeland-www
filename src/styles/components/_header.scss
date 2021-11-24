@@ -5,4 +5,30 @@
   justify-content: space-between;
   align-items: center;
   background-color: $primary_color;
+
+  .btn-container {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: $primary_color;
+    font-weight: 700;
+
+    .btn {
+      background-color: white;
+      border: 1px solid $primary_color_300;
+      border-radius: 8px;
+      padding: 8px 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $primary_color_100;
+      }
+    }
+  }
 }
