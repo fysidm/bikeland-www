@@ -1,0 +1,21 @@
+.station-marker-icon {
+  .number-icon-container {
+    position: relative;
+    width: 40px;
+
+    .number-icon-img {
+      width: 100%;
+      display: block;
+    }
+
+    .number-icon-number {
+      position: absolute;
+      top: 6px;
+      font-size: 18px;
+      font-weight: bold;
+      color: $primary_color;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
